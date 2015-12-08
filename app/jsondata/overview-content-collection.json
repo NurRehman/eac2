@@ -1,0 +1,53 @@
+[
+  {
+    "key": "project1",
+    "account_text": "Work Package 1",
+    "desc_text": "Engineering drawing",
+    "bac_text": "$33,130",
+    "acwp_text": "$88,332",
+    "working_acwp_text": "$11,232",
+    "bcwp_text": "$3,000"
+
+  },
+  {
+    "key": "project2",
+    "account_text": "Work Package 2",
+    "desc_text": "Subcontracting",
+    "bac_text": "$22,130",
+    "acwp_text": "$77,332",
+    "working_acwp_text": "$86,232",
+    "bcwp_text": "$22,000"
+
+  },
+  {
+    "key": "project3",
+    "account_text": "Work Package 3",
+    "desc_text": "Travel",
+    "bac_text": "$11,130",
+    "acwp_text": "$65,332",
+    "working_acwp_text": "$87,232",
+    "bcwp_text": "$3,334"
+
+  },
+  {
+    "key": "project4",
+    "account_text": "Work Package 4",
+    "desc_text": "Misc.",
+    "bac_text": "$12,130",
+    "acwp_text": "$32,332",
+    "working_acwp_text": "$51,232",
+    "bcwp_text": "$83,000"
+
+  },
+  {
+    "key": "project5",
+    "account_text": "Work Package 5",
+    "desc_text": "Equipment",
+    "bac_text": "$54,130",
+    "acwp_text": "$2,332",
+    "working_acwp_text": "$6,232",
+    "bcwp_text": "$500"
+
+  }
+ 
+]

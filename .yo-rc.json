@@ -1,0 +1,14 @@
+{
+  "generator-mario": {
+    "preferences": {
+      "projectName": "eac2",
+      "ecma": 5,
+      "testFramework": "mocha",
+      "tests": "custom",
+      "testFolder": "test/",
+      "styles": "sass",
+      "buildTool": "grunt"
+    },
+    "version": "1.0.0"
+  }
+}

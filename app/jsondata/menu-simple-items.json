@@ -1,0 +1,12 @@
+[
+  {
+    "key": "project1",
+    "text": "Project 1",
+    "link": "#overview/menu1"
+  },
+  {
+    "key": "project2",
+    "text": "Project 2",
+    "link": "#overview/menu2"
+  }
+]

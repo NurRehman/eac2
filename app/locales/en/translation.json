@@ -1,0 +1,33 @@
+{
+    "title": "Hello World!",
+    "language": "Language",
+    "primary": "First",
+    "secondary": "Second",
+    "about": "About",
+    "overview": "Overview",
+    "workpackage1": "Work Package 1",
+    "workpackage2": "Work Package 2",
+
+    "crud": {
+        "titleNew": "New Item",
+        "titleEdit": "Item Detail of ID#",
+        "create": "Create",
+        "edit": "Edit",
+        "remove": "Remove",
+        "save": "Save",
+        "text": {
+            "label": "Text",
+            "placeholder": "Put your text here ..."
+        },
+        "author": {
+            "label": "Author",
+            "placeholder": "Put your name here ..."
+        },
+        "created": {
+            "label": "Created at"
+        },
+        "published": {
+            "label": "Is published"
+        }
+    }
+}
