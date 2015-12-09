@@ -7,8 +7,10 @@ define([
     'apps/main/main_layout_view',
     'apps/navigation/navigation_controller',
     'apps/sidebar/sidebar_controller',
+    'apps/footer/footer_controller',
     'apps/overview/overview_router',
-], function (Backbone, Marionette, Fastclick, helpers, MainLayoutView, NavigationController, SidebarController, OverviewRouter) {
+    'apps/workpackage/workpackage_router',
+], function (Backbone, Marionette, Fastclick, helpers, MainLayoutView, NavigationController, SidebarController, FooterController,  OverviewRouter, WorkpackageRouter) {
     helpers.initialize();
     var App = new Marionette.Application();
     var initializeUI = function () {
@@ -27,6 +29,14 @@ define([
                 menuBtnReg: rootView.menuBtnsRegion
                 
             }
+        });
+         new WorkpackageRouter({
+            region: {
+                fullContentReg: rootView.fullContentRegion,
+            }
+        });
+        new FooterController({
+            region: rootView.footerRegion
         });
     };
     App.on('start', function () {

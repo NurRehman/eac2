@@ -9,7 +9,8 @@ define(['marionette', 'templates'], function (Marionette, JST) {
             'menuBtnsRegion': '#menu-buttons',
             'sidebarRegion': '#sidebar',
             'contentRegion': '#content',
-            'footerRegion': '#footer'
+            'fullContentRegion': '#fullcontent',
+            'footerRegion': '#footer-region'
         },
         el: '#wrapper'
     });
