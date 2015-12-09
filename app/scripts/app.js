@@ -26,13 +26,17 @@ define([
             region: {
                 sidebarReg: rootView.sidebarRegion,
                 contentReg: rootView.contentRegion,
-                menuBtnReg: rootView.menuBtnsRegion
+                menuBtnReg: rootView.menuBtnsRegion,
+                fullContentReg: rootView.fullContentRegion
                 
             }
         });
-         new WorkpackageRouter({
+        new WorkpackageRouter({
             region: {
                 fullContentReg: rootView.fullContentRegion,
+                sidebarReg: rootView.sidebarRegion,
+                contentReg: rootView.contentRegion,
+                menuBtnReg: rootView.menuBtnsRegion
             }
         });
         new FooterController({
