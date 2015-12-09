@@ -4,7 +4,7 @@ define(['marionette', 'apps/overview/overview_model', 'apps/overview/overview_co
   return Marionette.Object.extend({
     initialize: function (options) {
       this.region = options.region;
-      console.log('initialize overview');
+      //console.log('initialize overview');
 
       var mcollection = new MenuCollection();
       mcollection.fetch();
@@ -12,8 +12,9 @@ define(['marionette', 'apps/overview/overview_model', 'apps/overview/overview_co
       this.region.sidebarReg.show(menucview);
 
       var overviewbtntpl = new OverviewBtnTemplate();
-      
       this.region.menuBtnReg.show(overviewbtntpl);
+      
+      this.region.fullContentReg.empty();
     },
 
     default: function() {
@@ -22,20 +23,21 @@ define(['marionette', 'apps/overview/overview_model', 'apps/overview/overview_co
       var overviewCompositeView = new OverviewCompositeView();
       this.region.contentReg.show(overviewCompositeView);
 
-     this.initialize(this.region);
+     this.initialize(this);
 
-      console.log('default function overview');
+      //console.log('default function overview');
 
     },
     menu1content: function() {
       //var model = new Model();
       var contentcollection = new OverviewContentCollection();
       contentcollection.fetch();
-      console.log(contentcollection);
+      //console.log(contentcollection);
       var overviewCompositeViewBody = new OverviewCompositeView({collection: contentcollection});
       this.region.contentReg.show(overviewCompositeViewBody);
       //this.region.contentReg.show(new ContenTemplate());
       //this.region.sidebarReg.hide();
+      this.initialize(this);
 
     },
     menu2content: function() {
