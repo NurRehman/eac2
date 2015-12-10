@@ -9,8 +9,6 @@ define(['marionette',  'apps/workpackage/workpackage_item_view', 'apps/workpacka
       var wpbtntpl = new WorkpackageBtnView();
       this.region.menuBtnReg.show(wpbtntpl);
 
-     
-      
       //this.showWorkPackageContents();
       this.region.contentReg.empty();
       //this.region.menuBtnReg.empty();

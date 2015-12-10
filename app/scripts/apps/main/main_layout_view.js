@@ -6,7 +6,7 @@ define(['marionette', 'templates'], function (Marionette, JST) {
         template: JST['app/scripts/apps/main/main_layout_view_template.hbs'],
         regions: {
             'navigationRegion': '#navigation',
-            'menuBtnsRegion': '#menu-buttons',
+            'menuBtnsRegion': '#menubuttons',
             'sidebarRegion': '#sidebar',
             'contentRegion': '#content',
             'fullContentRegion': '#fullcontent',
