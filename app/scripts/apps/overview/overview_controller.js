@@ -15,6 +15,7 @@ define(['marionette', 'apps/overview/overview_model', 'apps/overview/overview_co
       this.region.menuBtnReg.show(overviewbtntpl);
       
       this.region.fullContentReg.empty();
+      this.region.descriptionReg.empty();
     },
 
     default: function() {

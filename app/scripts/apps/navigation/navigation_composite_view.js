@@ -9,8 +9,8 @@ define([
   return Marionette.CompositeView.extend({
     tagName: 'div',
     template: JST['app/scripts/apps/navigation/navigation_composite_view_template.hbs'],
-    childView: NavigationItemView,
-    childViewContainer: '#lang',
+    /*childView: NavigationItemView,
+    childViewContainer: '#lang',*/
     events: {
     	'click a.nav-link': 'showHeading'	
     },

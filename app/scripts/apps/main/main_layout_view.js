@@ -10,7 +10,9 @@ define(['marionette', 'templates'], function (Marionette, JST) {
             'sidebarRegion': '#sidebar',
             'contentRegion': '#content',
             'fullContentRegion': '#fullcontent',
-            'footerRegion': '#footer-region'
+            'footerRegion': '#footer-region',
+            'descriptionRegion': '#descriptionbox',
+            
         },
         el: '#wrapper'
     });

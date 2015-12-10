@@ -9,15 +9,15 @@ define(['backbone', 'marionette', 'i18n', './navigation_composite_view', './navi
 
         },
         show: function () {
-            var collection = new NavigationCollection();
-            collection.fetch();
-            var view = new NavigationItemView({collection: collection});
-            view.listenTo(view, 'childview:language:click', function(data) {
+            /*var collection = new NavigationCollection();
+            collection.fetch();*/
+            var view = new NavigationItemView();
+            /*view.listenTo(view, 'childview:language:click', function(data) {
               i18n.setLng(data.model.get('key'), function() {
                 Backbone.history.loadUrl(Backbone.history.fragment);
                 view.render();
               });
-            });
+            });*/
             this.region.show(view);
         }
     });

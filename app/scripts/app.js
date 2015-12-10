@@ -27,7 +27,8 @@ define([
                 sidebarReg: rootView.sidebarRegion,
                 contentReg: rootView.contentRegion,
                 menuBtnReg: rootView.menuBtnsRegion,
-                fullContentReg: rootView.fullContentRegion
+                fullContentReg: rootView.fullContentRegion,
+                descriptionReg: rootView.descriptionRegion,
                 
             }
         });
@@ -36,7 +37,9 @@ define([
                 fullContentReg: rootView.fullContentRegion,
                 sidebarReg: rootView.sidebarRegion,
                 contentReg: rootView.contentRegion,
-                menuBtnReg: rootView.menuBtnsRegion
+                menuBtnReg: rootView.menuBtnsRegion,
+                descriptionReg: rootView.descriptionRegion,
+                
             }
         });
         new FooterController({
