@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-static-top " role="navigation" >
+<nav class="navbar navbar-default mtop0 mbottom0" role="navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -14,11 +14,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="#overview" class="nav-link">{{t "overview"}}</a></li>
-                <li><a href="#wp1" class="nav-link">{{t "workpackage1"}}</a></li>
-                <li><a href="#wp2" class="nav-link">{{t "workpackage2"}}</a></li>
-            </ul>
+            
             <ul class="nav navbar-nav navbar-right" >
                <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nadeem <span class="fa fa-user"></span></a>
@@ -40,7 +36,36 @@
     </div><!-- /.container-fluid -->
    
 </nav>
- <div class="" style="margin-bottom:5px;">
-<h4 class="text-primary text-center"><span class="fa fa-cubes"></span>  EAC Workbench - <span id="main-heading-container">Overview</span></h4>
+<div class=" container-fluid">
+<div class="row">
+    <div  class="col-xs-2">
+         <ul class="nav navbar-nav" >
+               <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="fa fa-bars fa-lg"></span></a>
+                <ul class="dropdown-menu" id="user">
+                    <li><a href="#">Administration</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Costing</a></li>
+                    <li><a href="#">MRP</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Interactive Analysis</a></li>
+                </ul>
+               </li>
+             {{!--  <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{t "language"}} <span class="caret"></span></a>
+                <ul class="dropdown-menu" id="lang">
+                </ul>
+              </li> --}}
+             
+            </ul>
+
+    </div>
+
+    <div class="col-xs-10 text-center ptop5">
+        <h4 class="text-primary text-center"><span class="fa fa-cubes"></span>  EAC Workbench - <span id="main-heading-container">Overview</span></h4>
+    </div>
 </div>
 
+</div>
+ <hr class="mtop0 mbottom0">

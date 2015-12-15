@@ -1,7 +1,7 @@
 'use strict';
 
-define(['backbone', 'marionette', 'i18n', './navigation_composite_view', './navigation_collection'],
-  function (Backbone, Marionette, i18n, NavigationItemView, NavigationCollection) {
+define(['backbone', 'marionette', 'i18n', './navigation_composite_view', './navigation_collection', './navigation_tab_item_view'],
+  function (Backbone, Marionette, i18n, NavigationItemView, NavigationCollection, NavigationTabView) {
     return Marionette.Object.extend({
         initialize: function(options) {
             this.region = options.region;
@@ -18,7 +18,9 @@ define(['backbone', 'marionette', 'i18n', './navigation_composite_view', './navi
                 view.render();
               });
             });*/
-            this.region.show(view);
+            this.region.navReg.show(view);
+            this.region.tabReg.show(new NavigationTabView());
+
         }
     });
 });

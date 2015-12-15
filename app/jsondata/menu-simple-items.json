@@ -8,5 +8,10 @@
     "key": "project2",
     "text": "Project 2",
     "link": "#overview/menu2"
+  },
+  {
+    "key": "project3",
+    "text": "Project 3",
+    "link": "#overview/menu3"
   }
 ]

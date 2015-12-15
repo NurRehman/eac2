@@ -17,7 +17,10 @@ define([
         var rootView = new MainLayoutView();
         rootView.render();
         new NavigationController({
-            region: rootView.navigationRegion
+            region: {
+                navReg: rootView.navigationRegion,
+                tabReg: rootView.tabRegion,
+            }
         });
         new SidebarController({
             region: rootView.sidebarRegion

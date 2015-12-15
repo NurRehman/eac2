@@ -3,6 +3,8 @@ $primary-color: #074E68;
 $secondary-color: #333;
 $border-color: #a5a5a5;
 
+$space-pixels: 5px;
+
 body {
     background: $background-color;
 }
@@ -44,3 +46,53 @@ body {
     padding-right: 0.35em;
     margin-top: 0.35em;
 }
+
+/** Padding and Margin custom helper SCSS {Nadeem} **/
+.mtop0 { margin-top:0px !important; }
+.mtop5 { margin-top:$space-pixels !important; }
+.mtop10 { margin-top:$space-pixels * 2 !important; }
+.mtop15 { margin-top:$space-pixels * 3 !important; }
+.mtop20 { margin-top:$space-pixels * 4 !important }
+
+.mbottom5 { margin-bottom:$space-pixels !important; }
+.mbottom0 { margin-bottom:0px !important; }
+.mbottom10 { margin-bottom:$space-pixels * 2 !important; }
+.mbottom15 { margin-bottom:$space-pixels * 3 !important; }
+.mbottom20 { margin-bottom:$space-pixels * 4 !important; }
+
+.mleft0 { margin-left:0px !important; }
+.mleft5 { margin-left:$space-pixels !important; }
+.mleft10 { margin-left:$space-pixels * 2 !important; }
+.mleft15 { margin-left:$space-pixels * 3 !important; }
+.mleft20 { margin-left:$space-pixels * 4 !important; }
+
+.mright0 { margin-right:0px !important; }
+.mright5 { margin-right:$space-pixels !important; }
+.mright10 { margin-right:$space-pixels * 2 !important; }
+.mright15 { margin-right:$space-pixels * 3 !important; }
+.mright20 { margin-right:$space-pixels * 4 !important; }
+
+
+.ptop0 { padding-top:0px !important; }
+.ptop5 { padding-top:$space-pixels !important; }
+.ptop10 { padding-top:$space-pixels * 2 !important; }
+.ptop15 { padding-top:$space-pixels * 3 !important; }
+.ptop20 { padding-top:$space-pixels * 4 !important; }
+
+.pbottom0 { padding-bottom:0px !important; }
+.pbottom5 { padding-bottom:$space-pixels !important; }
+.pbottom10 { padding-bottom:$space-pixels * 2 !important; }
+.pbottom15 { padding-bottom:$space-pixels * 3 !important; }
+.pbottom20 { padding-bottom:$space-pixels * 4 !important; }
+
+.pleft0 { padding-left:0px !important; }
+.pleft5 { padding-left:$space-pixels !important; }
+.pleft10 { padding-left:$space-pixels * 2 !important; }
+.pleft15 { padding-left:$space-pixels * 3 !important; }
+.pleft20 { padding-left:$space-pixels * 4 !important; }
+
+.pright0 { padding-right:0px !important; }
+.pright5 { padding-right:$space-pixels !important; }
+.pright10 { padding-right:$space-pixels * 2 !important; }
+.pright15 { padding-right:$space-pixels * 3 !important; }
+.pright20 { padding-right:$space-pixels * 4 !important; }

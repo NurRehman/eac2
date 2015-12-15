@@ -11,6 +11,7 @@ define(['marionette', 'templates'], function (Marionette, JST) {
             'contentRegion': '#content',
             'fullContentRegion': '#fullcontent',
             'footerRegion': '#footer-region',
+            'tabRegion': '#tabs-area',
             'descriptionRegion': '#descriptionbox',
             
         },
