@@ -1,0 +1,25 @@
+[
+    {
+    "nodeName": "top level 1",
+    "nodes": [
+        {
+        "nodeName": "2nd level, item 1",
+        "nodes": [{
+            "nodeName": "3rd level, item 1"}
+                           ]}
+    ]},
+{
+    "nodeName": "top level 2",
+    "nodes": [
+        {
+        "nodeName": "2nd level, item 3",
+        "nodes": [
+            {
+            "nodeName": "3rd level, item 7"},
+        {
+            "nodeName": "3rd level, item 8"},
+        {
+            "nodeName": "3rd level, item 9"}
+        ]}
+    ]}
+]

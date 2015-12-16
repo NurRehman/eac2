@@ -30,6 +30,12 @@ require.config({
             deps: [
                 'backbone'
             ]
+        },
+        backtree: {
+            exports: 'BackTree',
+            deps: [
+                'backbone'
+            ]
         }
     },
     paths: {
@@ -42,7 +48,9 @@ require.config({
         radio: '../bower_components/backbone.radio/build/backbone.radio',
         fastclick: '../bower_components/fastclick-amd/fastclick',
         i18n: '../bower_components/i18next/i18next.amd',
-        'lil-uuid': '../bower_components/lil-uuid/uuid'
+        'lil-uuid': '../bower_components/lil-uuid/uuid',
+        backtree: '../bower_components/lib/backbone-tree-view',
+        'backbone-tree-model': '../bower_components/backbone-tree-model/src/backbone.treemodel',
     }
 });
 
